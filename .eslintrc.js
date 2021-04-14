@@ -18,6 +18,8 @@ module.exports = {
     'react',
   ],
   rules: {
+    'semi': 'warn',
+    'indent': 'warn',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/prefer-stateless-function': 'off',
     'react/prop-types': 'off',
